@@ -54,7 +54,7 @@ const player = {
   },
   slow: () => {
     player.pause()
-    player.time = 200
+    player.time = 120
     player.play()
   },
   normal: () => {
