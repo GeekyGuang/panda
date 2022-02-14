@@ -30,21 +30,21 @@
       }
     }
 
-    @media (min-width: 620px) and (min-height: 450px) {
+    /* @media (min-width: 620px) and (min-height: 450px) {
 
       html,
       body {
         font-size: 40px;
       }
-    }
+    } */
 
-    @media (min-width: 768px) and (min-height: 530px) {
+    /* @media (min-width: 768px) and (min-height: 523px) {
 
       html,
       body {
         font-size: 50px;
       }
-    }
+    } */
 
     #text {
       overflow-Y: auto;
@@ -122,6 +122,7 @@
       height: 2rem;
       margin-right: 0.2rem;
       transform: rotate(-6deg) translateY(10%);
+      border-radius: 5rem 4rem 0 0;
     }
 
     .head .main::before {
@@ -132,6 +133,7 @@
       position: absolute;
       top: 60%;
       left: 0;
+      border-radius: 40% 50%;
     }
 
     .forehead {
@@ -140,6 +142,7 @@
       position: absolute;
       right: 0;
       top: 10%;
+      border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
     }
 
     .snout {
@@ -150,6 +153,7 @@
       right: -0.35rem;
       overflow: hidden;
       transform: rotate(-2deg);
+      border-radius: 0 2px 1.5rem 0;
     }
 
     .snout::after {
@@ -235,6 +239,8 @@
       border-right: 0;
       border-top: 0.6rem solid transparent;
       border-bottom: 0.3rem solid transparent;
+      transform-origin: left center;
+      transform: rotate(5deg);
     }
 
     .foot-right::after {
@@ -257,6 +263,7 @@
       left: -0.1rem;
       display: flex;
       justify-content: center;
+      border-radius: 4rem 4.5rem 0 0;
     }
 
     .shoulder::before {
@@ -265,6 +272,7 @@
       width: 1.6rem;
       height: .4rem;
       border-radius: 50%;
+      transform: translate(-5%, -9%);
     }
 
     .shoulder::after {
@@ -277,6 +285,7 @@
       bottom: 0rem;
       transform-origin: top right;
       transform: rotate(-12deg);
+      border-radius: 0 0 1.2rem 0.5rem;
     }
 
     .back {
@@ -294,6 +303,7 @@
       height: 2rem;
       top: -0.7rem;
       position: absolute;
+      border-radius: 2.4rem 2.7rem 0 0;
     }
 
     .back::after {
@@ -305,6 +315,7 @@
       bottom: 0;
       left: 50%;
       border-radius: 58% 42% 55% 45% / 36% 40% 60% 64%;
+      transform: translate(-52%, 7%) rotate(-2deg);
     }
 
     .tail {

@@ -5,37 +5,19 @@ const string = `/**
 /**
  * 先画一个圆圆的脑袋
  */
-.head .main {
-  background: #efefef;
-  border-radius: 5rem 4rem 0 0;
-}
-
-.head .main::before {
-  background: #efefef;
-  border-radius: 40% 50%;
-}
-
-/**
- * 额头
- */
-
+.head .main,
+.head .main::before,
 .forehead {
   background: #efefef;
-  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
 }
 
 /**
- * 嘴巴
+ * 黑黑的鼻子
  */
-
-.snout {
+ .snout {
   background: #efefef;
-  border-radius: 0 2px 1.5rem 0;
 }
 
-/**
- * 鼻子
- */
 .snout::after {
   background: #000;
 }
@@ -78,8 +60,6 @@ const string = `/**
  */
 
 .foot-right {
-  transform-origin: left center;
-  transform: rotate(5deg);
   border-left: 1.95rem solid #000;
 }
 
@@ -97,18 +77,13 @@ const string = `/**
       #000 10.92%,
       #000 94.87%,
       rgba(100, 100, 100, 0) 94.88%);
-  border-radius: 4rem 4.5rem 0 0;
 }
 
-.shoulder::before {
-  background-color: #000;
-  transform: translate(-5%, -9%);
-}
-
+.shoulder::before,
 .shoulder::after {
   background-color: #000;
-  border-radius: 0 0 1.2rem 0.5rem;
 }
+
 
 /**
  * 背部
@@ -119,14 +94,9 @@ const string = `/**
   border-radius: 1.4rem 50% 50% 1.4rem;
 }
 
-.back::before {
-  background-color: #efefef;
-  border-radius: 2.4rem 2.7rem 0 0;
-}
-
+.back::before,
 .back::after {
   background-color: #efefef;
-  transform: translate(-52%, 7%) rotate(-2deg);
 }
 
 /**
