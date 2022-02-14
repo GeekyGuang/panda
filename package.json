@@ -1,11 +1,10 @@
 {
   "name": "panda",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "rm -rf dist && parcel build src/index.html --public-url ./"
+    "build": "rm -rf dist && parcel build src/index.html --public-url ./ && cd dist && git init && git add . && git commit -m deploy && git remote add gitee git@gitee.com:XG_GX/panda.git && git push gitee master -f && cd .."
   },
   "devDependencies": {
     "parcel": "^2.3.0"
