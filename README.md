@@ -1,6 +1,19 @@
-# 使用方法
+# 会动的 Panda
 
-```bash
-yarn add --dev parcel
-yarn parcel src/index.html
+## 安装依赖
+
+```
+yarn install
+```
+
+## 运行
+
+```
+yarn start
+```
+
+## 打包
+
+```
+yarn build
 ```
